@@ -17,6 +17,7 @@ export default function SpiritualReadingPage() {
 
   const readings = [
     // Premium
+    { label: "Introductory Reading — Free", price: 0 },
     { label: "Full Life Reading — $75", price: 75 },
     { label: "Twin Flame Connection — $40", price: 40 },
     { label: "Life Path & Destiny Blueprint — $35", price: 35 },
@@ -87,8 +88,8 @@ export default function SpiritualReadingPage() {
               >
                 <Wand2 className="w-14 h-14 text-purple-300 drop-shadow-xl" />
               </motion.div>
-              <h1 className="text-3xl font-bold text-purple-200">Connect for a Spiritual Reading</h1>
-              <p className="text-gray-300 text-sm">Choose your reading and send your request instantly.</p>
+              <h1 className="text-3xl font-bold text-purple-200">Connect for a Spiritual Consultation</h1>
+              <p className="text-gray-300 text-sm">Choose your reading and send your request or speak with a priestess</p>
             </div>
 
             <Input
